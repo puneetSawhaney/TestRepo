@@ -15,3 +15,12 @@ git branch     :::  to check the branch
 git branch -M main    :::   to rename branch
 
 git push origin main
+
+Another command
+
+git push -u origin main ::: this command sets the origin to main and from next time we can use only git push
+
+the push will be applicable to main branch and same repo origin used
+
+and if only one file is modified 
+then add and commit can be done in one command :::: command for that =>> git commit -am "Commit Message"
